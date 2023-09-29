@@ -1,26 +1,29 @@
 [
-    {
-        "id": 1,
-        "fecha": "17/8/2023",
-        "medio": "Débito",
-        "rubro": "Educación",
-        "beneficiario": "ITBA",
-        "importe": 968.54
-    },
-    {
-        "id": 2,
-        "fecha": "12/8/2023",
-        "medio": "Crédito",
-        "rubro": "Comercial",
-        "beneficiario": "Carrefour S.A",
-        "importe": 549.62
-    },
-    {
-        "id": 3,
-        "fecha": "8/8/2023",
-        "medio": "Débito",
-        "rubro": "Servicios",
-        "beneficiario": "Edenor S.A",
-        "importe": 358.38
-    }
+  {
+    "id": 1,
+    "fecha": "8/08/2023",
+    "horario": "14:27:45",
+    "medio": "Débito",
+    "rubro": "Servicios",
+    "beneficiario": "Edenor S.A",
+    "importe": 3580
+  },
+  {
+    "id": 2,
+    "fecha": "12/08/2023",
+    "horario": "12:34:56",
+    "medio": "Crédito",
+    "rubro": "Comercial",
+    "beneficiario": "Carrefour S.A",
+    "importe": 5490
+  },
+  {
+    "id": 3,
+    "fecha": "17/08/2023",
+    "horario": "10:25:34",
+    "medio": "Débito",
+    "rubro": "Educación",
+    "beneficiario": "ITBA",
+    "importe": 6420
+  }
 ]

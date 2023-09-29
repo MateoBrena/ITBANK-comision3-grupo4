@@ -23,6 +23,7 @@ export default function PaymentDetail({params}){
                 <ul className={style.lista}>
                     <li>Pago número: <strong>{selectedPayment[0].id}</strong> </li>
                     <li>Fecha: <strong>{selectedPayment[0].fecha}</strong></li>
+                    <li>Hora: <strong>{selectedPayment[0].horario}</strong></li>
                     <li>Medio: <strong>{selectedPayment[0].medio}</strong></li>
                     <li>Rubro: <strong>{selectedPayment[0].rubro}</strong></li>
                     <li>Beneficiario: <strong>{selectedPayment[0].beneficiario}</strong></li>

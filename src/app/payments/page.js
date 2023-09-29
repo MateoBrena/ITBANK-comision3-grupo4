@@ -21,16 +21,16 @@ export default function Payments() {
                     <thead className="table-dark">
                         <tr>
                             <th>Fecha</th>
-                            <th className="oculto">Medio de pago</th>
-                            <th className="oculto">Beneficiario</th>
+                            <th className={style.oculto}>Medio de pago</th>
+                            <th className={style.oculto}>Beneficiario</th>
                             <th>Importe</th>
                             <th>Detalle</th>
                         </tr>
                     </thead>
                     <tbody>
                     {payments.map((payment) => {
-                                return <PaymentTableRow key={payment.id} id={payment.id} fecha={payment.fecha} medio={payment.medio}  
-                                beneficiario={payment.beneficiario} importe={payment.importe}></PaymentTableRow>
+                                return <PaymentTableRow key={payment.id} id={payment.id} fecha={payment.fecha} horario={payment.horario}
+                                 medio={payment.medio}  beneficiario={payment.beneficiario} importe={payment.importe}></PaymentTableRow>
                             })}
                     </tbody>
                 </table>

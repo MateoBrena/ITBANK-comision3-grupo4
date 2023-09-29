@@ -29,8 +29,9 @@ export default function Transfers() {
                         </thead>
                         <tbody>
                             {transfers.map((transfer) => {
-                                return <TransferTableRow key={transfer.id} id={transfer.id} fecha={transfer.fecha} origen={transfer.origen}  destinatario={transfer.destinatario}
-                                 monto={transfer.monto}></TransferTableRow>
+                                return <TransferTableRow key={transfer.id} id={transfer.id} fecha={transfer.fecha}
+                                 horario={transfer.horario} origen={transfer.origen}  
+                                 destinatario={transfer.destinatario}monto={transfer.monto}></TransferTableRow>
                             })}
                         </tbody>
                     </table>

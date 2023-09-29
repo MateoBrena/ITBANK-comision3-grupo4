@@ -11,8 +11,3 @@ export default function Footer() {
         </>
     )
 }
-
-/* Colocar Links para que cada parte del formulario lleve a alguna página. 
-Contacto: formulario de contacto
-Políticas de privacidad: buscar algo o lorem ipsum
-Términos de uso: buscaro algo o lorem ipsum */

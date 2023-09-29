@@ -3,6 +3,7 @@
     background-color: lightgray;
     border-radius: 25px;
     padding: 1rem;
+    margin: 2.5rem;
 }
 
 .lista {
@@ -18,5 +19,6 @@
 @media (min-width: 768px) {
     .detalle {
         margin: auto;
+        margin-top: 1rem;
     }
 }

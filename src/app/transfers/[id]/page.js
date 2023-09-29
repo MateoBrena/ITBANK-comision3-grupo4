@@ -24,6 +24,7 @@ export default function TransferDetail({params}){
                 <ul className={style.lista}>
                     <li>Transferencia número: <strong>{selectedTransfer[0].id}</strong></li>
                     <li>Fecha: <strong>{selectedTransfer[0].fecha}</strong></li>
+                    <li>Hora: <strong>{selectedTransfer[0].horario}</strong></li>
                     <li>Origen: <strong>{selectedTransfer[0].origen}</strong></li>
                     <li>Destinatario: <strong>{selectedTransfer[0].destinatario}</strong></li>
                     <li>Monto: $<strong>{selectedTransfer[0].monto}</strong></li>
