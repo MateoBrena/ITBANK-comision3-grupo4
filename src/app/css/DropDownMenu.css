@@ -1,0 +1,60 @@
+#menu-dropdown{
+    margin: 1rem;
+}
+
+.dropdown a, .dropdown span {
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+.lista {
+    list-style-type:none;
+    margin-top: 1rem;
+}
+
+.btn-dark {
+    margin: 1rem;
+}
+
+.boton-index {
+    font-size: 1rem;
+    margin: 0;
+}
+
+#transfer-collapse-button2 {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0px;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+
+#opciones-transferencias2 div a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+#payment-collapse-button-2 {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0px;
+    margin-left: 2.8rem;
+}
+
+#opciones-pagos2 div a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media(min-width:768px){
+    #menu-dropdown{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "cbu": "000215684156",
+        "alias": "ALIAS.DE.PRUEBA",
+        "info": "Caja de ahorro ARS",
+        "saldo": 25000
+    },
+    {
+        "id": 2,
+        "cbu": "000223627091",
+        "alias": "OTRO.ALIAS.DISTINTO",
+        "info": "Caja de ahorro USD",
+        "saldo": 2000
+    }
+]

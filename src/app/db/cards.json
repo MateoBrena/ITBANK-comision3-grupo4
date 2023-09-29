@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "marca": "Visa",
+        "tipo": "Débito",
+        "ultimos": 8004,
+        "vencimiento": "10/25",
+        "codigo": 841,
+        "saldo": 12500
+    },
+    {
+        "id": 2,
+        "marca": "Mastercard",
+        "tipo": "Crédito",
+        "ultimos": 4256,
+        "vencimiento": "2/26",
+        "codigo": 293,
+        "limite": 50000,
+        "proximo": "9/10"
+    }
+]

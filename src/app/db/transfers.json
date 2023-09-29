@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "fecha": "14/08/2023",
+    "horario": "12:14:11",
+    "origen": "Caja de ahorro ARS",
+    "destinatario": "Juan Pérez",
+    "monto": 9680,
+    "motivo": "Varios",
+    "referencia": ""
+  },
+  {
+    "id": 2,
+    "fecha": "17/08/2023",
+    "horario": "15:36:28",
+    "origen": "Matías Gonzalez",
+    "destinatario": "Caja de ahorro ARS",
+    "monto": 5800,
+    "motivo": "Alquiler",
+    "referencia": "Pago de alquiler del mes de agosto"
+  },
+  {
+    "id": 3,
+    "fecha": "20/08/2023",
+    "horario": "11:20:17",
+    "origen": "Caja de ahorro ARS",
+    "destinatario": "Juliana Martinez",
+    "monto": 7450,
+    "motivo": "Varios",
+    "referencia": ""
+  },
+  {
+    "id": 4,
+    "fecha": "22/08/2023",
+    "horario": "19:10:25",
+    "origen": "Caja de ahorro USD",
+    "destinatario": "Mariano López",
+    "monto": 100,
+    "motivo": "Varios",
+    "referencia": ""
+  },
+  {
+    "id": 5,
+    "fecha": "25/08/2023",
+    "horario": "17:32:48",
+    "origen": "Carlos Rodríguez",
+    "destinatario": "Caja de ahorro USD",
+    "monto": 50,
+    "motivo": "Varios",
+    "referencia": ""
+  }
+]

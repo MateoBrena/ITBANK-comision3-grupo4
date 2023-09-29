@@ -1,0 +1,33 @@
+.tablaBootstrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.detalle a{
+    text-decoration: underline;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .tablaBootstrap {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        width: 80%;
+    }
+
+    #transferencias {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .oculto {
+        display: none;
+    }
+}

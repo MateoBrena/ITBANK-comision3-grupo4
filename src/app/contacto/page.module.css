@@ -1,0 +1,16 @@
+.headers {
+    text-align: center;
+    padding: 1rem;
+}
+
+.formulario {
+    width: 70%;
+    margin: auto;
+    padding: 1rem;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+
+.formulario label {
+    margin-top: 1rem;
+}

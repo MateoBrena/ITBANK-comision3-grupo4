@@ -1,0 +1,24 @@
+.detalle {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 2.5rem;
+}
+
+.lista {
+    list-style: none;
+    margin: 1rem;
+}
+
+.lista li{
+    font-size: 20px;
+    margin: 1rem;
+}
+
+@media (min-width: 768px) {
+    .detalle {
+        margin: auto;
+        margin-top: 1rem;
+    }
+}
