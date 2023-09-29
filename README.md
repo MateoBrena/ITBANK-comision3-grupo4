@@ -10,8 +10,6 @@ Mateo Brena
 
 Pablo Ferrarese
 
-Camila Vargas
-
 Fabricio Esteves
 
 ## Trello
@@ -25,3 +23,6 @@ Una vez clonado el proyecto, debemos correr el comando "npm i" en la consola par
 
 ## Introducción
 Nuestro banco consta de una página principal (/) que funciona como landing para cualquier visitante. Para acceder al Home banking o bien crear una cuenta en caso de no ser todavía un cliente (todavía no tenemos la funcionalidad de crear cuenta), usamos el login (/login). Este posee una validación muy sencilla que simplemente impide ingresar si los campos de usuario y contraseña no son completados (Con un solo caracter ya alcanza). Una vez se hayan completado ambos campos se debe utilizar el botón de "Ingresar" que nos llevará al apartado de cuentas (/accounts), desde allí todo el resto de las vistas están conectadas mediante la barra lateral o el menú desplegable (según la pantalla del dispositivo). Para regresar a la página principal, simplemente se debe hacer click en el item de "Inicio" de la barra de navegación o sobre el logo del banco ubicado en la esquina superior izquierda. Contamos con las funcionalidades de enviar transferencias y realizar pagos. También ofrecemos un simulador de préstamos y un conversor de moneda con valores actualizados diariamente.
+
+## Cuestiones a mejorar 
+No conseguimos migrar la funcionalidad del login a Next 13, por lo cual no es funcional y para acceder al resto de la aplicación se debe colocar manualmente la ruta de cuentas (/accounts). Tampoco logramos hacer que la imagen del banner (Next Image) sea responsive por lo cual se deforma al cambiar a pantallas de dispositivos móviles.

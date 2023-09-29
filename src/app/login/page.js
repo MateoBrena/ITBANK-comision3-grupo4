@@ -1,17 +1,16 @@
 "use client"
 
 import "../css/Login.css"
-// import { useNavigate } from "react-router-dom"
 import { useState } from 'react';
 import LoginHeader from "../components/LoginHeader"
 import Form from 'react-bootstrap/Form';
 import FloatingLabel  from "react-bootstrap/FloatingLabel";
 import Link from 'next/link'
 import Footer from "../components/Footer";
+// import { redirect } from "next/dist/server/api-utils";
 
 export default function Login() {
     const [validated, setValidated] = useState(false);
-    // const navigate = useNavigate();
 
     const handleSubmit = (e) => {
         const form = e.currentTarget;
@@ -24,7 +23,7 @@ export default function Login() {
 
     const handleClick = () => {
         if (validated === true) {
-            // navigate("/accounts")
+            // redirect("/accounts")
         }
     }
 
